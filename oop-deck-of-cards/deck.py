@@ -3,10 +3,14 @@ import cards as card
 
 class Deck:
     def __init__(self):
-        self.cards = []
+        cards = []
+        for suit in card.SUITS:
+            for value in card.VALUES:
+                card_in_deck = (value, "of", suit)
+                cards.append(card_in_deck)
 
     def num_cards(self):
-        pass
+        return len(self.cards)
 
     def shuffle(self):
         pass
@@ -14,6 +18,9 @@ class Deck:
     def peek(self):
         pass
 
+    def draw(self):
+        pass
 
-mySuites = card.SUITS
-print(mySuites)
+
+myDeck = Deck()
+print(myDeck.num_cards())

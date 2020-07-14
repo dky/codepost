@@ -1,8 +1,8 @@
 import card
+import random
 
 
 class Deck:
-
     def __init__(self):
         # Instance variable
         self.cards = []
@@ -20,7 +20,10 @@ class Deck:
         print(self.cards)
 
     def shuffle(self):
-        pass
+        while self.cards:
+            random_card = random.choice(self.cards)
+            self.cards.remove(random_card)
+            return (random_card)
 
     # Pop from beginning of the list?
     def peek(self):
@@ -35,6 +38,7 @@ myDeck = Deck()
 print(myDeck.num_cards())
 # print(myDeck.return_deck())
 # print(myDeck.peek())
+print(myDeck.shuffle())
 
 print(myDeck.draw())
 # This returns 51 elements.

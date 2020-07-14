@@ -1,4 +1,4 @@
-import cards as card
+import card
 
 
 class Deck:

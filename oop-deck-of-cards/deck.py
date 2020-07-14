@@ -3,11 +3,11 @@ import cards as card
 
 class Deck:
     def __init__(self):
-        cards = []
+        self.cards = []
         for suit in card.SUITS:
             for value in card.VALUES:
                 card_in_deck = (value, "of", suit)
-                cards.append(card_in_deck)
+                self.cards.append(card_in_deck)
 
     def num_cards(self):
         return len(self.cards)

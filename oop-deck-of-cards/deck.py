@@ -2,6 +2,8 @@ import card
 import random
 
 
+# This class represents a standard Deck of cards. We populate the deck using
+# two for loops.
 class Deck:
     def __init__(self):
         # Instance variable
@@ -9,16 +11,20 @@ class Deck:
         # Range over the cards
         for suit in card.SUITS:
             for value in card.VALUES:
-                new_card = (value, "of", suit)
+                # Create a new card object
+                new_card = card.Card(value, suit)
                 # Append each card to deck
                 self.cards.append(new_card)
 
+    # num_cards returns a count of all the cards in the deck.
     def num_cards(self):
         return len(self.cards)
 
-    def return_deck(self):
-        print(self.cards)
+    # displays a card's value.
+    def show(self, card):
+        print("{}, {}".format(card.suit, card.value))
 
+    # Shuffle the deck and return a random card.
     def shuffle(self):
         while self.cards:
             random_card = random.choice(self.cards)
@@ -27,7 +33,8 @@ class Deck:
 
     # Pop from beginning of the list?
     def peek(self):
-        return self.cards.pop(0)
+        if (len(self.cards) != 0):
+            return self.cards.pop(0)
 
     # Pop but don't return anything?
     def draw(self):
@@ -36,10 +43,5 @@ class Deck:
 
 myDeck = Deck()
 print(myDeck.num_cards())
-# print(myDeck.return_deck())
-# print(myDeck.peek())
-print(myDeck.shuffle())
-
-print(myDeck.draw())
-# This returns 51 elements.
-print(myDeck.num_cards())
+myDeck.show(myDeck.shuffle())
+myDeck.show(myDeck.peek())

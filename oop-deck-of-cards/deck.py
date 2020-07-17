@@ -21,8 +21,13 @@ class Deck:
         return len(self.cards)
 
     # displays a card's value.
-    def show(self, card):
+    def show_single(self, card):
         print("{}, {}".format(card.suit, card.value))
+
+    # return the full deck of cards.
+    def show_full_deck(self):
+        for i in (self.cards):
+            self.show_single(i)
 
     # Shuffle the deck and return a random card.
     def shuffle(self):
@@ -43,5 +48,6 @@ class Deck:
 
 myDeck = Deck()
 print(myDeck.num_cards())
-myDeck.show(myDeck.shuffle())
-myDeck.show(myDeck.peek())
+myDeck.show_single(myDeck.shuffle())
+myDeck.show_single(myDeck.peek())
+myDeck.show_full_deck()

@@ -6,11 +6,11 @@
 Get the minimum value in an array of integers (without using the built-in min function).
 Ex: [1, 2, 3, 4] -> 1
 
-- [ ] square_integers(list) -> list
+- [x] square_integers(list) -> list
 Given an array of integers, replace each value with its square.
 Ex: [1, 2, 3] -> [1, 4, 9]
 
-- [ ] print_ever_other_in_reverse(list) -> list
+- [ ] print_every_other_in_reverse(list) -> list
 Given an array of integers, print every other element beginning from the last element.
 Ex: [1, 2, 3, 4] -> 4 ... 2
 

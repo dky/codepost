@@ -29,33 +29,33 @@ dictionaries.py
 
 ## dictionaries.py
 
-- [] most_common_element(array) -> integer
+- [ ] most_common_element(array) -> integer
 Get the most common value in an array of integers (you will need to use a dictionary).
 Ex: [1, 2, 3, 4] -> 3
 
-- [] find_elements_by_occurence(array), integer -> array
+- [ ] find_elements_by_occurence(array), integer -> array
 Given an array and a number K, find all the elements that appear K times.
 Ex: [1, 2, 2, 2, 3, 4, 4, 5, 5, 5, 5], 3 -> [2]
 
-- [] neg_nums_only(array) -> dictionary
+- [ ] neg_nums_only(array) -> dictionary
 Given an array of integers, fill a dictionary with counts of negative numbers only.
 Ex: [-4, -3, -3, -2, -2, -2, 4, 5, 6, 7, 7] -> {-4: 1, -3: 2, -2: 3}
 
-- [] times_string_appears(array, string) -> integer
+- [ ] times_string_appears(array, string) -> integer
 Given an array of strings and a target string T, return how many times T appears in the list of strings.
 ["paste", "rate", "template"], "te" -> 4
 
-- [] num_of_integers(array) -> integer
+- [ ] num_of_integers(array) -> integer
 Given a mixed array, return how many of its elements are integers.
 Ex: ["a", 2, 3.06, "word"] -> 1
 strings.py
 
 ## strings.py
 
-- [] reverse_string(string) -> string
+- [ ] reverse_string(string) -> string
 Given a string, return a new string in reverse order.
 Ex: "facebook" -> "koobecaf"
 
-- [] remove_vowels(string) -> string
+- [ ] remove_vowels(string) -> string
 Given a string, return a new string that is the original string with all vowels removed.
 Ex: "google" -> "ggl"

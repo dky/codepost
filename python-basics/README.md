@@ -27,6 +27,8 @@ Given a list of integers, return a list that contains the product of all other n
 Ex: [1, 2, 3] -> [6, 3, 2]
 dictionaries.py
 
+## dictionaries.py
+
 - [] most_common_element(array) -> integer
 Get the most common value in an array of integers (you will need to use a dictionary).
 Ex: [1, 2, 3, 4] -> 3
@@ -47,6 +49,8 @@ Given an array of strings and a target string T, return how many times T appears
 Given a mixed array, return how many of its elements are integers.
 Ex: ["a", 2, 3.06, "word"] -> 1
 strings.py
+
+## strings.py
 
 - [] reverse_string(string) -> string
 Given a string, return a new string in reverse order.

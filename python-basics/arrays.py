@@ -2,30 +2,23 @@ class Array:
     def __init__(self, list):
         self.list = list
 
-    # Given [1, 2, 3, 4] => return 1
-    # testList = [5, 2, 3, 4, 6, 1, 8]
-    def get_min_val(self, list):
-        # 1. Set an initial variable to self.list[0], this is the current smallest.
-        current_smallest_value = self.list[0]
-        # 2. Range through each item of the list comparing smallest_value with
-        # next item in the list. Skipping the first.
-        for i in (self.list):
-            # compare the list current item being with the
-            # current_smallest_value, if it's gt smallest_value return it.
-            if self.list[i] < current_smallest_value:
-                current_smallest_value = self.list[i]
-            else:
-                return current_smallest_value
+    def get_min_val(self):
+        list_vals = self.list
+        min_val = list_vals[0]
+        for i in (list_vals):
+            if i < min_val:
+                min_val = i
 
-    def square_integers(self, list):
+        return(min_val)
+
+    def square_integers(self):
         square_list = []
-        for i in list:
-            # print(item ** 2)
+        for i in self.list:
             square_list.append(i ** 2)
 
         return square_list
 
-    def print_every_other_in_reverse(self, list): 
+    def print_every_other_in_reverse(self, list):
         pass
 
     def evens_only(self, list):
@@ -38,7 +31,7 @@ class Array:
         pass
 
 
-testList = [5, 2, 3, 4, 6, 1, 8]
+testList = [5, 2, 3, 4, 6, 8, 9, 1, 10, 20, 30]
 myList = Array(testList)
-print(myList.get_min_val(testList))
-# print(myList.square_integers(testList))
+print(myList.get_min_val())
+print(myList.square_integers())

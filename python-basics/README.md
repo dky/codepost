@@ -2,7 +2,7 @@
 
 ## arrays.py
 
-- [ ] get_min_val(list) -> integer
+- [x] get_min_val(list) -> integer
 Get the minimum value in an array of integers (without using the built-in min function).
 Ex: [1, 2, 3, 4] -> 1
 

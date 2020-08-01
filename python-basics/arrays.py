@@ -32,16 +32,24 @@ class Array:
 
         return evens_only
 
-    def strings_length_2(self, list):
-        pass
+    def strings_length_2(self):
+        strings_gt_than_2 = []
+
+        for i in self.list:
+            if type(i) == str:
+                if len(i) >= 2:
+                    strings_gt_than_2.append(i)
+
+        return strings_gt_than_2
 
     def prod_of_all_others(list):
         pass
 
 
-test_List = [1, 2, 3, 4, 5]
+test_List = [1, 2, 3, 4, 5, "hi"]
 myList = Array(test_List)
 # print(myList.get_min_val())
 # print(myList.square_integers())
-print(myList.print_every_other_in_reverse())
+# print(myList.print_every_other_in_reverse())
 # print(myList.evens_only())
+# print(myList.strings_length_2())

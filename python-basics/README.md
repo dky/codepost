@@ -10,7 +10,7 @@ Ex: [1, 2, 3, 4] -> 1
 Given an array of integers, replace each value with its square.
 Ex: [1, 2, 3] -> [1, 4, 9]
 
-- [ ] print_every_other_in_reverse(list) -> list
+- [x] print_every_other_in_reverse(list) -> list
 Given an array of integers, print every other element beginning from the last element.
 Ex: [1, 2, 3, 4] -> 4 ... 2
 
@@ -18,7 +18,7 @@ Ex: [1, 2, 3, 4] -> 4 ... 2
 Given two arrays, return only the even elements from both arrays.
 Ex: [1, 2, 3, 4] -> [2, 4]
 
-- [ ] strings_length_2(list) -> list
+- [x] strings_length_2(list) -> list
 Given a list of random data, returns a new list of only strings that are at least length 2.
 Ex: [1, 2, 'a', 4.3, 'word', True] -> ['word']
 

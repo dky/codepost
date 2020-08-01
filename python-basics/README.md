@@ -14,9 +14,9 @@ Ex: [1, 2, 3] -> [1, 4, 9]
 Given an array of integers, print every other element beginning from the last element.
 Ex: [1, 2, 3, 4] -> 4 ... 2
 
-- [ ] evens_only(list, list) -> list
+- [x] evens_only(list, list) -> list
 Given two arrays, return only the even elements from both arrays.
-Ex: [1, 2], [3, 4] -> [2, 4]
+Ex: [1, 2, 3, 4] -> [2, 4]
 
 - [ ] strings_length_2(list) -> list
 Given a list of random data, returns a new list of only strings that are at least length 2.

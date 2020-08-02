@@ -51,10 +51,10 @@ strings.py
 
 ## strings.py
 
-- [ ] reverse_string(string) -> string
+- [x] reverse_string(string) -> string
 Given a string, return a new string in reverse order.
 Ex: "facebook" -> "koobecaf"
 
-- [ ] remove_vowels(string) -> string
+- [x] remove_vowels(string) -> string
 Given a string, return a new string that is the original string with all vowels removed.
 Ex: "google" -> "ggl"

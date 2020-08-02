@@ -1,4 +1,4 @@
-# This assignment will require you to submit 4 separate files outlined below. Each file should have the following methods:
+# This assignment will require you to submit 3 separate files outlined below. Each file should have the following methods:
 
 ## arrays.py
 
@@ -25,7 +25,6 @@ Ex: [1, 2, 'a', 4.3, 'word', True] -> ['word']
 - [ ] prod_of_all_others(list) -> list
 Given a list of integers, return a list that contains the product of all other numbers in the array except the number at the current index.
 Ex: [1, 2, 3] -> [6, 3, 2]
-dictionaries.py
 
 ## dictionaries.py
 

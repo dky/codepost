@@ -44,7 +44,7 @@ Ex: [-4, -3, -3, -2, -2, -2, 4, 5, 6, 7, 7] -> {-4: 1, -3: 2, -2: 3}
 Given an array of strings and a target string T, return how many times T appears in the list of strings.
 ["paste", "rate", "template"], "te" -> 4
 
-- [ ] num_of_integers(array) -> integer
+- [x] num_of_integers(array) -> integer
 Given a mixed array, return how many of its elements are integers.
 Ex: ["a", 2, 3.06, "word"] -> 1
 strings.py

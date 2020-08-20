@@ -28,7 +28,7 @@ Ex: [1, 2, 3] -> [6, 3, 2]
 
 ## dictionaries.py
 
-- [ ] most_common_element(array) -> integer
+- [x] most_common_element(array) -> integer
 Get the most common value in an array of integers (you will need to use a dictionary).
 Ex: [1, 2, 3, 4] -> 3
 

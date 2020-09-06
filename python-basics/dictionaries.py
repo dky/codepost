@@ -29,6 +29,17 @@ class dictionaries():
 
         return most_occurring_element
 
+    def neg_nums_only(List):
+        dict = {}
+        for k in List:
+            if k < 0:
+                if k in dict:
+                    dict[k] += 1
+                else:
+                    dict[k] = 1
+
+        return dict
+
     def num_of_integers(List):
         for i in List:
             if isinstance(i, int):
@@ -37,10 +48,12 @@ class dictionaries():
 
 # List = ["a", 2, 3.06, "word"]
 # List = [2, 1, 2, 2, 1, 3]
-List = [1, 2, 2, 2, 3, 4, 4, 5, 5, 5, 5]
+# List = [1, 2, 2, 2, 3, 4, 4, 5, 5, 5, 5]
+List = [-4, -3, -3, -2, -2, -2, 4, 5, 6, 7, 7]
 
 
 myDict = dictionaries
 # myDict.num_of_integers(List)
 # print(myDict.most_common_element(List))
-print(myDict.find_elements_by_occurance(List, 3))
+# print(myDict.find_elements_by_occurance(List, 3))
+print(myDict.neg_nums_only(List))

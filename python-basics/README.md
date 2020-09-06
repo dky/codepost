@@ -36,7 +36,7 @@ Ex: [1, 2, 3, 4] -> 3
 Given an array and a number K, find all the elements that appear K times.
 Ex: [1, 2, 2, 2, 3, 4, 4, 5, 5, 5, 5], 3 -> [2]
 
-- [ ] neg_nums_only(array) -> dictionary
+- [x] neg_nums_only(array) -> dictionary
 Given an array of integers, fill a dictionary with counts of negative numbers only.
 Ex: [-4, -3, -3, -2, -2, -2, 4, 5, 6, 7, 7] -> {-4: 1, -3: 2, -2: 3}
 

@@ -32,7 +32,7 @@ Ex: [1, 2, 3] -> [6, 3, 2]
 Get the most common value in an array of integers (you will need to use a dictionary).
 Ex: [1, 2, 3, 4] -> 3
 
-- [ ] find_elements_by_occurence(array), integer -> array
+- [x] find_elements_by_occurence(array), integer -> array
 Given an array and a number K, find all the elements that appear K times.
 Ex: [1, 2, 2, 2, 3, 4, 4, 5, 5, 5, 5], 3 -> [2]
 

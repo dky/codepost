@@ -40,7 +40,7 @@ Ex: [1, 2, 2, 2, 3, 4, 4, 5, 5, 5, 5], 3 -> [2]
 Given an array of integers, fill a dictionary with counts of negative numbers only.
 Ex: [-4, -3, -3, -2, -2, -2, 4, 5, 6, 7, 7] -> {-4: 1, -3: 2, -2: 3}
 
-- [ ] times_string_appears(array, string) -> integer
+- [x] times_string_appears(array, string) -> integer
 Given an array of strings and a target string T, return how many times T appears in the list of strings.
 ["paste", "rate", "template"], "te" -> 4
 

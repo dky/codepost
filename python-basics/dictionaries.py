@@ -40,6 +40,17 @@ class dictionaries():
 
         return dict
 
+    # Not sure what this has to do with dictionaries.
+    def times_string_appears(List, search):
+        counter = 0
+
+        for i in List:
+            # Leverage string count method...
+            value = i.count(search)
+            counter += value
+
+        return counter
+
     def num_of_integers(List):
         for i in List:
             if isinstance(i, int):
@@ -49,11 +60,13 @@ class dictionaries():
 # List = ["a", 2, 3.06, "word"]
 # List = [2, 1, 2, 2, 1, 3]
 # List = [1, 2, 2, 2, 3, 4, 4, 5, 5, 5, 5]
-List = [-4, -3, -3, -2, -2, -2, 4, 5, 6, 7, 7]
+List = ["paste", "rate", "template", "test"]
+# List = [-4, -3, -3, -2, -2, -2, 4, 5, 6, 7, 7]
 
 
 myDict = dictionaries
 # myDict.num_of_integers(List)
 # print(myDict.most_common_element(List))
 # print(myDict.find_elements_by_occurance(List, 3))
-print(myDict.neg_nums_only(List))
+print(myDict.times_string_appears(List, "te"))
+# print(myDict.neg_nums_only(List))

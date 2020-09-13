@@ -22,7 +22,7 @@ Ex: [1, 2, 3, 4] -> [2, 4]
 Given a list of random data, returns a new list of only strings that are at least length 2.
 Ex: [1, 2, 'a', 4.3, 'word', True] -> ['word']
 
-- [ ] prod_of_all_others(list) -> list
+- [x] prod_of_all_others(list) -> list
 Given a list of integers, return a list that contains the product of all other numbers in the array except the number at the current index.
 Ex: [1, 2, 3] -> [6, 3, 2]
 
